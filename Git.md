@@ -5,11 +5,11 @@ git init
 git add README.md
 <!-- Добавляет файлы в сохранение -->
 git commit -m "first commit"
-<!--  -->
+<!-- делает сохранку -->
 git branch -M main
 <!--  -->
 git remote add origin https://github.com/Faded-User/severyanochka.git
-<!--  -->
+<!-- подключает к гитхабу. ссылка на проект -->
 git push -u origin main
 <!--  -->
 <!--  -->
