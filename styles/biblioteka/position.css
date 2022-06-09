@@ -1,0 +1,18 @@
+.pos-rel{
+    position: relative;
+}
+.pos-t-r {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.pos-t-l{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pos-b-l{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}

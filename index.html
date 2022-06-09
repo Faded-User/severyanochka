@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Северяночка</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container flex-between">
+            <!-- logo -->
+            <figure class="logo">
+                <img src="./images/logo-main.png" alt="logo-main">
+            </figure>
+            <!-- Catalog button -->
+            <div class="catalog-menu" id="menu">
+                <div class="catalog-button">
+                    <p class="line "></p>
+                    <p class="line "></p>
+                    <p class="line "></p>
+                </div>
+                <p class="catalog-txt">Каталог</p>
+            </div>
+            <!-- Search input -->
+            <div class="input-box column">
+                <input class="input" type="text" placeholder="Найти товар">
+                <i class="fa-magnifying-glass fa-solid fa-2x"></i>
+            </div>
+            <div class="main-icons column">
+                <div class="icon">
+                    <i class="fa-heart fa-solid fa-2x"></i>
+                    <p class="title-icon ">Избранное</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-box fa-solid fa-2x"></i>
+                    <p class="title-icon ">Заказы</p>
+                </div>
+                <div class="icon">
+                    <a href="/html/cart.html"><i class="fa-cart-shopping fa-solid fa-2x"></i>
+                        <p class="title-icon ">Корзина
+                    </a></p>
+                </div>
+            </div>
+            <figure class="user-profile column">
+                <!-- User -->
+                <img src="./images/avatar.png" alt="Your-avatar">
+                <p class="username">Алексей</p>
+                <i class="fa-solid fa-2x fa-angle-right"></i>
+            </figure>
+        </div>
+
+    </header>
+    <section class="dropdown-menu" id="drop">
+        <div class="container flex-between">
+            <div class="menu-txt">
+                <p class="txt">Молоко, сыр, яйцо</p>
+                <p class="txt">Хлеб</p>
+                <p class="txt">Фрукты и овощи</p>
+                <p class="txt">Замороженные фрукты</p>
+            </div>
+            <div class="menu-txt">
+                <p class="txt">Напитки</p>
+                <p class="txt">Кондитерские изделия</p>
+                <p class="txt">Чай, кофе</p>
+            </div>
+            <div class="menu-txt">
+                <p class="txt">Бакалея</p>
+                <p class="txt">Здоровое питание</p>
+                <p class="txt">Зоотовары</p>
+            </div>
+            <div class="menu-txt">
+                <p class="txt">Непродовольственные товары</p>
+                <p class="txt">Детское питание</p>
+                <p class="txt">Мясо, птица, рыба</p>
+            </div>
+        </div>
+    </section>
+    <!-- dropdown-menu user -->
+    <footer class="user-menu-wrapper flex-center-column">
+        <div class="txt ff-bold-rubik flex-between user-view">Мой профиль<i class="fa-solid fa-user"></i></div>
+        <div class="txt ff-bold-rubik flex-between user-settings">Настройки профиля<i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="txt ff-bold-rubik flex-between user-messages">Сообщения<i class="fa-regular fa-comment-dots"></i>
+        </div>
+        <div class="txt ff-bold-rubik flex-between user-coupons">Купоны<i class="fa-solid fa-receipt"></i></div>
+        <div class="txt ff-bold-rubik flex-between user-exit">Выйти<i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </div>
+    </footer>
+    <section class="showcase">
+        <img src="./images/prod-img.png" alt="showcase-image" />
+        <h2 class="showcase-title">Доставка бесплатно от 1000 ₽</h2>
+    </section>
+
+    <!-- favourite -->
+    <section class="container flex-center-x column-left">
+        <h2 class="ff-bold-rubik fs-50 pd-l-15">Акции</h2>
+        <div class="flex-between">
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/1.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-50%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">Блинчики АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">9$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусные блинчики. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button data-id-product="1" data-title="WoW1" data-cost="9$" class="add-to-card">В корзину</button>
+            </div>
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/2.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-50%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">Молочко АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">9$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусное молочко. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button data-id-product="2" data-title="WoW2" data-cost="9$" class="add-to-card">В корзину</button>
+            </div>
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/6.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-50%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">Колбаска АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">9$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусная колбаска. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button data-id-product="3" data-title="WoW3" data-cost="9$" class="add-to-card">В корзину</button>
+            </div>
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/10.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-50%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">Йогурт АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">9$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусные блинчики. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button data-id-product="4" data-title="WoW4" data-cost="9$" class="add-to-card">В корзину</button>
+            </div>
+        </div>
+        <h2 class="ff-bold-rubik fs-50 padd-l-15">Новинки</h2>
+        <div class="flex-between">
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/11.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-20%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">Маслеце АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">11$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусное масло. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-to-card">В корзину</button>
+            </div>
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/9.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-10%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">Йогуртик АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">30$</p>
+                </div>
+                <div class="ff-bold-rubik">Ахуенный йогурт. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-to-card">В корзину</button>
+            </div>
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/7.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-30%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">АшОтА СыРоК</p>
+                    <p class="ff-radio-canada-bold fs-20">9$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусный сырочек. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-to-card">В корзину</button>
+            </div>
+            <div class="product">
+                <div class="pos-rel">
+                    <img src="./images/3.png" alt="product-image" class="image-product">
+                    <i id="heart" class="fa-regular fa-heart pos-t-r"></i>
+                    <div class="discount-block pos-b-l flex-center ff-bold-rubik">-40%</div>
+                </div>
+                <div class="count-product flex-between">
+                    <p class="ff-radio-canada-bold fs-20">КоВбАсКа АшОтА</p>
+                    <p class="ff-radio-canada-bold fs-20">9$</p>
+                </div>
+                <div class="ff-bold-rubik">Вкусная КоВбАсКа. Настолько вкусно, что диарея вам обеспечена))</div>
+                <div class="flex-row-left stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <button class="add-to-card">В корзину</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- избранное -->
+
+
+    <!-- конец избранного -->
+
+    <section class="info-section-wrapper">
+        <footer class="info-footer container flex-between">
+            <img src="/images/logo.png" alt="small-logo">
+            <p class="info-txt ff-bold-rubik">О компании</p>
+            <p class="info-txt ff-bold-rubik">Контакты</p>
+            <p class="info-txt ff-bold-rubik">Вакансии</p>
+            <p class="info-txt ff-bold-rubik">Статьи</p>
+            <p class="info-txt ff-bold-rubik">Политика обработки персональных данных</p>
+            <div class="logo-link">
+                <a href="#" class="fa fa-facebook fs-25-tr-short"></a>
+                <a href="#" class="fa fa-twitter fs-25-tr-short"></a>
+                <a href="#" class="fa fa-google fs-25-tr-short"></a>
+                <a href="#" class="fa fa-linkedin fs-25-tr-short"></a>
+                <a href="#" class="fa fa-youtube fs-25-tr-short"></a>
+                <a href="#" class="fa fa-instagram fs-25-tr-short"></a>
+            </div>
+            <div class="info-phone flex-around">
+                <i class="fa fa-solid fa-phone"></i>
+                <p class="ff-radio-canada"> 8 800 777 33 33</p>
+            </div>
+        </footer>
+    </section>
+    <script src="https://kit.fontawesome.com/c5f723ad52.js" crossorigin="anonymous"></script>
+    <script src="/sripts/script.js"></script>
+    <script src="/sripts/drop-user.js"></script>
+    <script src="/sripts/products-id.js"></script>
+</body>
+
+</html>
+<!-- 1. active heart -->
+<!--2. objects  -->
+<!-- 3. trans for date to objects -->
+<!-- 4. kogda obekti sozdani sozdat mogno massiv -->

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Северяночка</title>
+    <link rel="stylesheet" href="/./styles/biblioteka/flex.css">
+    <link rel="stylesheet" href="/./styles/biblioteka/animation.css">
+    <link rel="stylesheet" href="/styles/biblioteka/fa-icons.css">
+    <link rel="stylesheet" href="/styles/biblioteka/txt-styles.css">
+    <link rel="stylesheet" href="/styles/biblioteka/position.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/switch.css">
+    <link rel="stylesheet" href="/styles/cart.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container flex-between">
+            <!-- logo -->
+            <figure class="logo">
+                <img src="/images/logo-main.png" alt="logo-main">
+            </figure>
+            <!-- Catalog button -->
+            <div class="catalog-menu" id="menu">
+                <div class="catalog-button">
+                    <p class="line "></p>
+                    <p class="line "></p>
+                    <p class="line "></p>
+                </div>
+                <p class="catalog-txt">Каталог</p>
+            </div>
+            <!-- Search input -->
+            <div class="input-box column">
+                <input class="input" type="text" placeholder="Найти товар">
+                <i class="fa-magnifying-glass fa-solid fa-2x"></i>
+            </div>
+            <div class="main-icons column">
+                <div class="icon">
+                    <i class="fa-heart fa-solid fa-2x"></i>
+                    <p class="title-icon ">Избранное</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-box fa-solid fa-2x"></i>
+                    <p class="title-icon ">Заказы</p>
+                </div>
+                <div class="icon i-active">
+                    <i class="fa-cart-shopping fa-solid fa-2x"></i>
+                    <p class="title-icon ">Корзина</p>
+                </div>
+            </div>
+            <figure class="user-profile column">
+                <!-- User -->
+                <img src="/images/avatar.png" alt="Your-avatar">
+                <p class="username">Алексей</p>
+                <i class="fa-solid fa-2x fa-angle-right"></i>
+            </figure>
+        </div>
+
+    </header>
+    <footer class="dropdown-menu" id="drop">
+        <div class="container flex-between">
+            <div class="menu-txt">
+                <p class="txt ff-bold-rubik">Молоко, сыр, яйцо</p>
+                <p class="txt ff-bold-rubik">Хлеб</p>
+                <p class="txt ff-bold-rubik">Фрукты и овощи</p>
+                <p class="txt ff-bold-rubik">Замороженные фрукты</p>
+            </div>
+            <div class="menu-txt">
+                <p class="txt ff-bold-rubik">Напитки</p>
+                <p class="txt ff-bold-rubik">Кондитерские изделия</p>
+                <p class="txt ff-bold-rubik">Чай, кофе</p>
+            </div>
+            <div class="menu-txt">
+                <p class="txt ff-bold-rubik">Бакалея</p>
+                <p class="txt ff-bold-rubik">Здоровое питание</p>
+                <p class="txt ff-bold-rubik">Зоотовары</p>
+            </div>
+            <div class="menu-txt">
+                <p class="txt ff-bold-rubik">Непродовольственные товары</p>
+                <p class="txt ff-bold-rubik">Детское питание</p>
+                <p class="txt ff-bold-rubik">Мясо, птица, рыба</p>
+            </div>
+        </div>
+    </footer>
+    <!-- dropdown-menu user -->
+    <footer class="user-menu-wrapper flex-center-column">
+        <div class="txt ff-bold-rubik flex-between user-view">Мой профиль<i class="fa-solid fa-user"></i></div>
+        <div class="txt ff-bold-rubik flex-between user-settings">Настройки профиля<i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="txt ff-bold-rubik flex-between user-messages">Сообщения<i class="fa-regular fa-comment-dots"></i>
+        </div>
+        <div class="txt ff-bold-rubik flex-between user-coupons">Купоны<i class="fa-solid fa-receipt"></i></div>
+        <div class="txt ff-bold-rubik flex-between user-exit">Выйти<i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </div>
+    </footer>
+    <!-- Navigation -->
+    <div class="info-row flex-left">
+        <p class="link-page ff-bold-rubik"><a href="/index.html">Главная</a></p>
+        <i class="fa-solid fa-angle-right"></i>
+        <p class="link-active ff-bold-rubik"><a href="/html/cart.html">Корзина</a></p>
+    </div>
+    <!-- Content -->
+    <section class="container">
+        <div class="title-cart">
+            <h2 class="ff-bold-rubik pos-rel">Корзина</h2>
+            <div class="product-count flex-center ff-bold-rubik pos-t-r">4</div>
+        </div>
+    </section>
+    <footer class="content-cart-wrapper flex-center">
+        <div class="product-total flex-center-column">
+            <div class="product pos-rel">
+                <img src="/images/3.png" alt="img">
+                <div>
+                    <h3 class="ff-bold-rubik product-title">Mmmmmm kolbaska</h3>
+                    <h4 class="ff-radio-canada">Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh </h4>
+                    <p>90$ за шт.</p>
+                </div>
+                <div class="amount flex-center">
+                    <button class="plus">
+                        +
+                    </button>
+                    <p class="total-amount-product">1</p>
+                    <button class="minus">
+                        -
+                    </button>
+                </div>
+                <div class="count">
+                    <h2 class="ff-bold-rubik">90$</h2>
+                    <h3 class="discount">100$</h3>
+                </div>
+            </div>
+            <div class="product pos-rel">
+                <img src="/images/3.png" alt="img">
+                <div>
+                    <h3 class="ff-bold-rubik product-title">Mmmmmm kolbaska</h3>
+                    <h4 class="ff-radio-canada">Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh </h4>
+                    <p>90$ за шт.</p>
+                </div>
+                <div class="amount flex-center">
+                    <button class="plus">
+                        +
+                    </button>
+                    <p class="total-amount-product">1</p>
+                    <button class="minus">
+                        -
+                    </button>
+                </div>
+                <div class="count">
+                    <h2 class="ff-bold-rubik">90$</h2>
+                    <h3 class="discount">100$</h3>
+                </div>
+            </div>
+            <div class="product pos-rel">
+                <img src="/images/3.png" alt="img">
+                <div>
+                    <h3 class="ff-bold-rubik product-title">Mmmmmm kolbaska</h3>
+                    <h4 class="ff-radio-canada">Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh </h4>
+                    <p>90$ за шт.</p>
+                </div>
+                <div class="amount flex-center">
+                    <button class="plus">
+                        +
+                    </button>
+                    <p class="total-amount-product">1</p>
+                    <button class="minus">
+                        -
+                    </button>
+                </div>
+                <div class="count">
+                    <h2 class="ff-bold-rubik">90$</h2>
+                    <h3 class="discount">100$</h3>
+                </div>
+            </div>
+            <div class="product pos-rel">
+                <img src="/images/3.png" alt="img">
+                <div>
+                    <h3 class="ff-bold-rubik product-title">Mmmmmm kolbaska</h3>
+                    <h4 class="ff-radio-canada">Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh Bruh </h4>
+                    <p>90$ за шт.</p>
+                </div>
+                <div class="amount flex-center">
+                    <button class="plus">
+                        +
+                    </button>
+                    <p class="total-amount-product">1</p>
+                    <button class="minus">
+                        -
+                    </button>
+                </div>
+                <div class="count">
+                    <h2 class="ff-bold-rubik">90$</h2>
+                    <h3 class="discount">100$</h3>
+                </div>
+            </div>
+        </div>
+        <div class="total">
+            <div class="flex-between container">
+                <!-- Округлый переключатель -->
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p class="ff-bold-rubik">Выбрать все товары</p>
+            </div>
+            <div class="flex-between container">
+                <h2 class="ff-bold-rubik">Всего </h2>
+                <p class="ff-messiri-700">360$</p>
+            </div>
+            <hr>
+            <div class="flex-between container total-count">
+                <h2>4 товара</h2>
+                <h2>360$</h2>
+            </div>
+            <div class="flex-between container total-amount">
+                <h3>Скидка</h3>
+                <h3>40$</h3>
+            </div>
+            <hr>
+            <button class="btn-cart">Оформить заказ</button>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- ~bottom~ -->
+    <section class="info-section-wrapper">
+        <footer class="info-footer container flex-between">
+            <img src="/images/logo.png" alt="small-logo">
+            <p class="txt ff-radio-canada">О компании</p>
+            <p class="txt ff-radio-canada">Контакты</p>
+            <p class="txt ff-radio-canada">Вакансии</p>
+            <p class="txt ff-radio-canada">Статьи</p>
+            <p class="txt ff-radio-canada">Политика обработки персональных данных</p>
+            <div class="logo-link">
+                <a href="#" class="fa fa-facebook fs-25-tr-short"></a>
+                <a href="#" class="fa fa-twitter fs-25-tr-short"></a>
+                <a href="#" class="fa fa-google fs-25-tr-short"></a>
+                <a href="#" class="fa fa-linkedin fs-25-tr-short"></a>
+                <a href="#" class="fa fa-youtube fs-25-tr-short"></a>
+                <a href="#" class="fa fa-instagram fs-25-tr-short"></a>
+            </div>
+            <div class="info-phone flex-around">
+                <i class="fa fa-solid fa-phone"></i>
+                <p class="ff-radio-canada"> 8 800 777 33 33</p>
+            </div>
+        </footer>
+    </section>
+    <script src="https://kit.fontawesome.com/c5f723ad52.js" crossorigin="anonymous"></script>
+    <script src="/sripts/script.js"></script>
+    <script src="/sripts/drop-user.js"></script>
+</body>
+
+</html>
